@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import Carsl from './Carsl'
+import locationList from './locationList';
 
 
 function App() {
   return (
     <div className="App">
-       <Carsl />
+       <Carsl locations={locationList}/>
     </div>
   );
 }
